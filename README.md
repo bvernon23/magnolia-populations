@@ -1,4 +1,4 @@
-# Final Project Part One: Magnolia Population Density in Ecuador
+# Final Project: Magnolia Population Density in Ecuador
 
 The title of my map is "Magnolia Populations in Ecuador". 
 
