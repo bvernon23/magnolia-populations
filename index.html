@@ -3,42 +3,37 @@
 
 <head>
 	<meta charset=utf-8 />
-	<title>Waterways of Tennessee</title>
+	<title>Magnolia Distribution Map</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Walter+Turncoat" rel="stylesheet">
 
 	<style>
 		body {
 			margin: 0;
 			padding: 0;
-			background: #d3d3d3;
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 400;
+			background: #f5f5f5;
+			font-family: 'Walter Turncoat', cursive;
 			color: #3d3d3d;
 		}
 
 		section {
-			/* width: 960%; */
+
 			width: 80%;
 			margin: 20px auto;
 		}
 
 		h1 {
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 300;
-			font-size: 2.5em;
-			/* The em unit. 3x the current size */
+			font-size: 3em;
+			font-family: 'Walter Turncoat', cursive;
 			letter-spacing: .04em;
-			text-transform: uppercase;
 		}
 
 		h2 {
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 700;
-			color: gray;
-			font-size: 1.1em;
+			font-size: 2em;
+			font-family: 'Dancing Script', cursive;
 			letter-spacing: .04em;
 		}
 
@@ -49,6 +44,7 @@
 
 		a {
 			color: #005daa;
+			font-weight: bold;
 			text-decoration: none;
 		}
 
@@ -67,43 +63,53 @@
 		#map {
 			width: 100%;
 			margin: 10px auto;
-			border: 2px solid #d3d3d3;
 		}
 
-		.max-width-img {
-			width:100%;
+		.max-image-width {
+			width: 100%;
 		}
 
-		.max-width-img {
-  			width:100%;
-		}	
-		</style>
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+		hr {
+			border: 0px;
+			border-bottom: 1px solid #3d3d3d;
+			padding-top: 20px;
+		}
+
+	</style>
 </head>
 
 <body>
-
-	<div id='map'>
-		<img src="graphics/Tennessee_waterways_1200px.png" alt="Map of Tennessee Waterways">
-		<br> 
-		<a href="graphics/Tennessee_waterways_8000px.png">Link to high resolution map</a>
-		<img src="" class="max-width-img" alt="Alternative description for screen readers">
-	</div>
-
 	<section>
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
-		<!-- Please be sure to include both map images that you exported, the regular and high resolution options -->
 
-		<h1>Tennessee Waterways</h1>
+		<h1>Magnolia Populations in Ecuador</h1>
+
+		<div id='map'>
+				<!-- Add your custom HTML here --> 
+				<img src="../mag-final/magnolia-pop-final-1200px.jpg" alt="update the alt text as well">
+		</div>
+		<a href="../mag-final/magnolia-pop-final-8000px.jpg" class="linkbox">Link to a higher resolution map. </a>
 
 		<!-- Add you information below -->
 		<h2>Authored by: Bailey Vernon</h2>
-		<p>This map was made using QGIS 3.6 and mac OS Catalina. It displays the major waterways of Tennessee and the 
-            data source is located at this link: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">National Atlas of the United States</a>. </p>
+		<p>This map was created using QGIS 3.6 and macOS Catalina. It has a cordinate reference system of ESRI: 102033. When thinking about how to display population density,
+            a heatmap lends itself well to visual representation. Endgangered magnolia species span the world, with locations in China and the US,
+            but a majority of them survive within the South American country of Ecuador. This concentration is due to climate and habitat, as well as more isolation than other global locations.
+            75% of engangered magnolias live in this country, and within about 10 of the 24 provinces, showing just how particular the natural world can be. There is a focus in the middle of the country, 
+            where there is less volatility from the coast and located near preserved national parks. More information about this map and its metadata can be found <a href=https://github.com/newmapsplus/map671-module-09-bvernon23/blob/master/README.md>here, </a>
+            and this map was published on June 15, 2022.
+        </p>
 
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
-			<li>See my projects on GitHub: <a href="https://github.com/bvernon23">bvernon23</a></li>
+			<li>See my projects on GitHub: <a href="https://github.com/bvernon23">Bvernon23</a></li>
 			<li>Follow me on twitter: <a href="https://twitter.com/bailey_vernon">@bailey_vernon</a></li>
 		</ul>
 	</section>
